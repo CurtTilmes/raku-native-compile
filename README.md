@@ -123,9 +123,9 @@ resources/libraries by default, pass in :verbose or :dryrun as usual
 
 ### sub fallback($lib, @fallback, *%args)
 
-Process a list of fallback library fetching alternatives, each with a
-condition block, a url for the library, and a sha256 hash for the
-library.
+Process a list of fallback library fetching alternatives, each
+possibly with an os/version, a url for the library, and a sha256 hash
+for the library.
 
 ### sub build(:$lib, :@src, :@fallback, :$clean, :$dir, *%args)
 
