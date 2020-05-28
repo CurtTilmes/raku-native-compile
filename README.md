@@ -52,15 +52,16 @@ Mac OS/X, it can download it if a compiler is not available.
 
 This module also exports a `MAIN` subroutine so you can make your
 `Build.rakumod` executable and things will just work.  It takes the
-*-v*/*--verbose* and *-n*/*--dryrun* flags and passes them on to the
-`CBuild.build()`, which can be useful for debugging the build process.
+*-v* / *--verbose* and *-n* / *--dryrun* flags and passes them on to
+the `Build.build()`, which can be useful for debugging the build
+process.
 
 It exports a number of subroutines that capture what I've observed as
 frequent boilerplate for doing this sort of thing throughout the
 ecosystem.  Many examples seem to do it slightly differently, and I'm
 not sure this is yet optimal.  This is still a work in progress, and
 the interface may still change.  I'd like to support the most common
-cases here, making easy things easy.  Hopefully the B<build>
+cases here, making easy things easy.  Hopefully the **build**
 subroutine is all you really need, though the other functions are
 exposed if they are useful.  You can manually perform the compile/link
 steps in class `Build` if needed.
