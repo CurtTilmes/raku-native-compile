@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 use Test;
-use Text:When <release>;
+use Test:When <release>;
 use Native::Compile;
 use NativeCall;
 
