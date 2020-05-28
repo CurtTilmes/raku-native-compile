@@ -71,13 +71,11 @@ subroutine is all you really need, though the other functions are
 exposed if they are useful.  You can manually perform the compile/link
 steps in class C<Build> if needed.
 
-
 =head1 SUBROUTINES
 
 =end pod
 
 use HTTP::UserAgent;
-use JSON::Fast;
 
 subset CPPSRC of Str where *.IO.extension eq 'cpp';
 subset CSRC   of Str where *.IO.extension eq 'c';
