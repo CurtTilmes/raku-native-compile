@@ -3,7 +3,7 @@
     "perl"           : "6.c",
     "name"           : "Native::Compile",
     "api"            : "1",
-    "version"        : "0.1",
+    "version"        : "0.2",
     "auth"           : "github:CurtTilmes",
     "description"    : "Native Compiling for Raku Modules",
     "license"        : "Artistic-2.0",

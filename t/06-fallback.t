@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 use Test;
-use Test::When <online>;
+use Test::When <release online>;
 use Native::Compile;
 
 my $url = 'https://www.dropbox.com/s/dbi3607rbtqf140/testlib.dll?dl=1>';
